@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/tictactoe.css">
+        <title>Tic Tac Toe</title>
+    </head>
+    <body>
+        <div class="game-mode-buttons">
+            <button class="active-button" id="game_mode1" onclick="setGameMode(1)">2 Players</button>
+            <button class="active-button" id="game_mode2" onclick="setGameMode(2)">Play against Bot</button>
+        </div>
+        <canvas id="game" class="game_canvas" width="450px" height="450px"></canvas>
+        <p class="gameinfo" id="current_player">
+        </p>
+        <button class="active-button restart-button" onclick="choseGameMode()">Restart Game</button>
+    </body>
+    <script src="js/tictactoe/draw_functions.js"></script>
+    <script src="js/tictactoe/pvp.js"></script>
+    <script src="js/tictactoe/pve.js"></script>
+    <script src="js/tictactoe/main.js"></script>
+</html>

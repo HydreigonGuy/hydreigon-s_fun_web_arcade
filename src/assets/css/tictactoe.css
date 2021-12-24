@@ -1,0 +1,61 @@
+
+body {
+    background-color: green;
+}
+
+.game_canvas {
+    margin: 100px;
+    border-radius: 80px;
+}
+
+p {
+    color: white;
+}
+
+div {
+    color: white;
+}
+
+.gameinfo {
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+
+.restart-button {
+    position: absolute;
+    right: 50px;
+    top:500px;
+}
+
+.game-mode-buttons {
+    position: absolute;
+    top: 30px;
+    left:120px;
+}
+
+.active-button {
+    color: black;
+    background-color: green;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.active-button:hover {
+    color: limegreen;
+    background-color: black;
+}
+
+.selected-button {
+    color: limegreen;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.selected-button:hover {
+    color: black;
+    background-color: green;
+}

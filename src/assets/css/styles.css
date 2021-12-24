@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+}
+
+.active-button {
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid navy;
+    padding: 5px;
+    color: navy;
+    background-color: lightblue;
+}
+
+.active-button:hover {
+    color: lightblue;
+    background-color: navy;
+}
