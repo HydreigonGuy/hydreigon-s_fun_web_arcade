@@ -6,3 +6,22 @@ body {
 p {
     color: black;
 }
+
+.home_btn {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    color: black;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: orange;
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.home_btn:hover {
+    color: orange;
+    background-color: black;
+}
