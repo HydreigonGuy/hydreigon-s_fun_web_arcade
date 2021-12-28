@@ -6,6 +6,10 @@ const router = express.Router();
 
 app.use(express.static(__dirname + '/assets'));
 
+router.get('/fun-math',function(req, res){
+  res.sendFile(path.join(__dirname+'/templates/fun-math.html'));
+});
+
 router.get('/runner',function(req, res){
   res.sendFile(path.join(__dirname+'/templates/runner.html'));
 });

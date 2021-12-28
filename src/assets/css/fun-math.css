@@ -1,0 +1,22 @@
+body {
+    padding: 20px;
+    background-color: grey;
+}
+
+.answer-input {
+    padding: 10px;
+    width: 50px;
+    border-radius: 20px;
+    border: none;
+}
+
+.answer_form {
+    display: inline;
+}
+
+.answer-wrong-input {
+    padding: 10px;
+    width: 50px;
+    border-radius: 20px;
+    border: 3px solid red;
+}
